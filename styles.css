@@ -1,0 +1,313 @@
+/* 
+----- LIGHT GREY: #d1ccc7 ----------
+----- DARK BROWN: #47423E-----------
+----- STUDIO WHITE: #d4d9df---------
+*/
+
+
+/*----- ----------*/
+
+/*----- HEADER STYLES---------*/
+html {
+    width: 1280px;
+    text-align: center;
+}
+body {
+    background-color: #d4d9df;
+}
+
+header {
+    background-color: #d4d9df;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #47423E;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform:uppercase;
+}
+
+nav h2 {
+    visibility:hidden;
+    height:0px;
+    width: 0px;
+}
+
+nav li {
+    display:inline-flex;
+}
+
+nav {
+    padding-bottom:25px;
+    text-align: center;
+    
+}
+
+nav a {
+    padding:20px;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
+    color: #47423E;
+    font-size: 20px;
+    margin: 0 25px 0 25px;
+    
+}
+
+nav, p {
+    font-family: 'Koulen', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a:hover {
+    background-color: #47423E;
+    color: #d1ccc7;
+    font-weight:bold;
+}
+
+/*----- HEADER STYLES END----------*/
+
+/*----- SLOGAN SECTION STYLES---------*/
+
+#confidence {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    padding-left: 100px;;
+   
+}
+
+.slogan {
+    height: 500px;
+    background-color: #d4d9df;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    
+}
+
+#sloganText{
+color: #47423E;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 50px;
+text-align: left;
+padding: 20px 0 0 0px;
+height: 400px;
+margin-top: 80px;
+}
+
+
+
+/*----- SLOGAN SECTION STYLES END---------*/
+
+/*----- SVG ICON STYLES----------*/
+
+.icon {
+    height: 80px;
+    width: 80px;
+    padding-top: 150px;
+    padding-left: 75px;
+    fill: #47423E;
+    color: #47423E;
+}
+.icon, h3 {
+    background-color: #d4d9df;
+    text-align: center;
+    
+}
+
+h3{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #47423E;
+}
+
+#flexIcon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #d4d9df;
+}
+
+
+
+/*----- SVG ICON STYLES END----------*/
+
+/*-- ABOUT ME STYLES START -----------*/
+ #aboutMe {
+     background-color: #8e97a6;
+     height: 650px;
+ }
+
+ #aboutMe h2 {
+    background-image: linear-gradient(#d4d9df, #8e97a6);
+    color: #47423E;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    padding: 25px;
+ }
+ #about{
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    float: right;
+    padding-right: 40px;
+}
+
+#hello{
+    background-color: #8e97a6;
+    color: #d4d9df;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 75px;
+    padding-top: 150px;
+}
+
+p {
+    background-color: #d4d9df;
+    color: #47423E;
+    font-size: 25px;
+    width: 850px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+ 
+/*-- ABOUT ME STYLES END -----------*/
+/*-- TRAIN W ME STYLES START -----------*/
+#trainWithMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #020504;
+}
+#back {
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
+ #train {
+     float:right;
+     font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    padding-top: 125px;
+    padding-right: 125px;
+    color: #47423E;
+ }
+
+#apply {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+   
+}
+
+#apply a {
+    text-decoration: none;
+    color: #d4d9df;
+    padding: 15px;
+    background-color: #47423E;
+}
+
+#apply a:hover{
+    background-color: #020504;
+    color:#47423E;
+}
+/*-- TRAIN W ME STYLES END -----------*/
+
+/*-- Contact START-----------*/
+
+#contact {
+    background-color: #d4d9df;
+    padding: 10px;
+}
+
+#contact h2 {
+    color: #47423E;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    
+}
+
+form {
+    background-color: #47423E;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #d1ccc7;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+input{
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.inputBox {
+    width: 400px;
+}
+
+fieldset{
+    width: 100%;
+    border: none;
+    margin: 1em auto 0.5em auto;
+    padding: 0;
+  }
+
+  .required {
+      color: red;
+  }
+
+  #mySubmit{
+    display: block;
+    padding: 10px;
+    margin: 1em auto;
+    color: #47423E;
+    background-color: #d4d9df;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border: none;
+  }
+
+  #mySubmit:hover {
+    background-color: #020504;
+    color:#47423E;
+    font-weight:bold;
+  }
+
+  .error{
+    border: 2px solid red;
+  }
+  
+
+/*-- Contact END -----------*/
+
+/*--FOOTER START -----------*/
+
+.social{
+    height: 30px;
+    width: 30px;
+    fill: #d4d9df;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    text-align: center;
+    background-color: #47423E;
+}
+
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+    background-color: #d4d9df;
+}
